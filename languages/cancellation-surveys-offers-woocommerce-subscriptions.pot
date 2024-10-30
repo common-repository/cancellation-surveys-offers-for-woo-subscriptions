@@ -1,0 +1,590 @@
+# Copyright (C) 2024 Meow Crew
+# This file is distributed under the GPL-2.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: Cancellation Surveys & Offers for WooCommerce Subscriptions 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/cancellation-surveys-offers-woocommerce-subscriptions\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-05-10T22:33:32+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.7.1\n"
+"X-Domain: cancellation-surveys-offers-for-woo-subscriptions\n"
+
+#. Plugin Name of the plugin
+msgid "Cancellation Surveys & Offers for WooCommerce Subscriptions"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://woocommerce.com/products/cancellation-surveys-offers-woocommerce-subscriptions"
+msgstr ""
+
+#. Description of the plugin
+msgid "Offer targeted discounts and collect feedback through surveys when users attempt to cancel their subscriptions."
+msgstr ""
+
+#. Author of the plugin
+msgid "Meow Crew"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://meow-crew.com"
+msgstr ""
+
+#: src/Frontend/OfferPopup/Actions/CancelSubscriptionAction.php:30
+msgid "Access Denied"
+msgstr ""
+
+#: src/Frontend/OfferPopup/Actions/CancelSubscriptionAction.php:54
+msgid "Subscription canceled with reason: %s"
+msgstr ""
+
+#: src/Frontend/OfferPopup/Actions/TakeDiscountAction.php:45
+msgid "Subscription retention achieved through discount offer (%s)"
+msgstr ""
+
+#: src/Frontend/OfferPopup/Actions/TakeDiscountAction.php:57
+msgid "Discount has been applied"
+msgstr ""
+
+#: src/Offer/CPT/Actions/ReactivateAction.php:37
+msgid "Reactivate"
+msgstr ""
+
+#: src/Offer/CPT/Actions/SuspendAction.php:37
+msgid "Suspend"
+msgstr ""
+
+#: src/Offer/CPT/Actions/SuspendAction.php:54
+msgid "The offer suspended successfully."
+msgstr ""
+
+#: src/Offer/CPT/CancellationOffersCPT.php:170
+msgid "There are no cancellation offers & surveys yet. To create the first offer rule click on the button below."
+msgstr ""
+
+#: src/Offer/CPT/CancellationOffersCPT.php:179
+msgid "Create a cancellation offer"
+msgstr ""
+
+#: src/Offer/CPT/CancellationOffersCPT.php:216
+msgid "Cancellation Offers"
+msgstr ""
+
+#: src/Offer/CPT/CancellationOffersCPT.php:217
+msgid "Cancellation Offer"
+msgstr ""
+
+#: src/Offer/CPT/CancellationOffersCPT.php:218
+#: src/Offer/CPT/CancellationOffersCPT.php:219
+msgid "Add Cancellation Offer"
+msgstr ""
+
+#: src/Offer/CPT/CancellationOffersCPT.php:220
+msgid "Edit Cancellation Offer"
+msgstr ""
+
+#: src/Offer/CPT/CancellationOffersCPT.php:221
+msgid "New Cancellation Offer"
+msgstr ""
+
+#: src/Offer/CPT/CancellationOffersCPT.php:223
+msgid "Offers & Surveys"
+msgstr ""
+
+#: src/Offer/CPT/Columns/LimitationsColumn.php:12
+msgid "Users & Products Limitations"
+msgstr ""
+
+#: src/Offer/CPT/Columns/LimitationsColumn.php:27
+msgid "Applied to every product and user"
+msgstr ""
+
+#: src/Offer/CPT/Columns/LimitationsColumn.php:36
+msgid "Applied to every product"
+msgstr ""
+
+#: src/Offer/CPT/Columns/LimitationsColumn.php:46
+msgid "Applied to every user"
+msgstr ""
+
+#: src/Offer/CPT/Columns/LimitationsColumn.php:74
+msgid "Products: "
+msgstr ""
+
+#: src/Offer/CPT/Columns/LimitationsColumn.php:76
+msgid "Excluded products: "
+msgstr ""
+
+#: src/Offer/CPT/Columns/LimitationsColumn.php:110
+msgid "Categories: "
+msgstr ""
+
+#: src/Offer/CPT/Columns/LimitationsColumn.php:112
+msgid "Excluded categories: "
+msgstr ""
+
+#: src/Offer/CPT/Columns/LimitationsColumn.php:147
+msgid "Customers: "
+msgstr ""
+
+#: src/Offer/CPT/Columns/LimitationsColumn.php:149
+msgid "Excluded customers: "
+msgstr ""
+
+#: src/Offer/CPT/Columns/LimitationsColumn.php:171
+msgid "Roles: "
+msgstr ""
+
+#: src/Offer/CPT/Columns/LimitationsColumn.php:173
+msgid "Excluded roles: "
+msgstr ""
+
+#: src/Offer/CPT/Columns/OfferColumn.php:11
+#: src/Offer/CPT/Form/Tabs/DiscountsOfferTab.php:13
+msgid "Discount Offer"
+msgstr ""
+
+#: src/Offer/CPT/Columns/OfferColumn.php:20
+msgid "Coupon code: "
+msgstr ""
+
+#: src/Offer/CPT/Columns/OfferColumn.php:37
+#: src/Offer/CPT/Columns/OfferColumn.php:39
+msgid "Not set"
+msgstr ""
+
+#: src/Offer/CPT/Columns/OfferColumn.php:45
+#: src/Offer/CPT/Form/Tabs/DiscountsOfferTab.php:145
+#: src/Offer/CPT/Form/Tabs/GeneralSettingsTab.php:28
+msgid "Minimum renewals number"
+msgstr ""
+
+#: src/Offer/CPT/Columns/OfferColumn.php:52
+#: src/Offer/CPT/Form/Tabs/DiscountsOfferTab.php:157
+#: src/Offer/CPT/Form/Tabs/GeneralSettingsTab.php:38
+msgid "Minimum subscription days active"
+msgstr ""
+
+#: src/Offer/CPT/Columns/OfferColumn.php:60
+msgid "Discount Offer is not enabled"
+msgstr ""
+
+#: src/Offer/CPT/Columns/Status.php:8
+msgid "Status"
+msgstr ""
+
+#: src/Offer/CPT/Columns/Status.php:16
+msgid "Suspended"
+msgstr ""
+
+#: src/Offer/CPT/Columns/Status.php:24
+msgid "Active"
+msgstr ""
+
+#: src/Offer/CPT/Columns/SurveyColumn.php:11
+#: src/Offer/CPT/Form/Tabs/SurveyTab.php:13
+msgid "Survey"
+msgstr ""
+
+#: src/Offer/CPT/Columns/SurveyColumn.php:22
+msgid "Survey is not enabled"
+msgstr ""
+
+#: src/Offer/CPT/Form/Form.php:371
+msgid "Create Survey"
+msgstr ""
+
+#: src/Offer/CPT/Form/Form.php:372
+#: src/Offer/CPT/Form/Tabs/SurveyTab.php:17
+msgid "Define cancellation reasons."
+msgstr ""
+
+#: src/Offer/CPT/Form/Form.php:378
+msgid "Offer discount"
+msgstr ""
+
+#: src/Offer/CPT/Form/Form.php:379
+msgid "Select a coupon code for retention"
+msgstr ""
+
+#: src/Offer/CPT/Form/Form.php:385
+msgid "Products & Roles"
+msgstr ""
+
+#: src/Offer/CPT/Form/Form.php:386
+msgid "Limit survey and offers to specific products or user roles."
+msgstr ""
+
+#: src/Offer/CPT/Form/Form.php:396
+msgid "Create Survey Form and Offer Step-by-Step"
+msgstr ""
+
+#: src/Offer/CPT/Form/Form.php:401
+msgid "Complete this form with your survey questions, discount offers, and limitations. This will help you understand the reasons behind subscription cancellations and enable you to retain customers with targeted discount offers."
+msgstr ""
+
+#: src/Offer/CPT/Form/Tabs/DiscountsOfferTab.php:17
+msgid "Select a coupon code for retention."
+msgstr ""
+
+#: src/Offer/CPT/Form/Tabs/DiscountsOfferTab.php:21
+msgid "Link a specific coupon code that will be offered to subscribers as a reason to retain their subscription. Customize the second pop-up step here, or disable if you don't want to offer discounts."
+msgstr ""
+
+#: src/Offer/CPT/Form/Tabs/DiscountsOfferTab.php:43
+msgid "Enable Discount Offer"
+msgstr ""
+
+#: src/Offer/CPT/Form/Tabs/DiscountsOfferTab.php:54
+msgid "Title"
+msgstr ""
+
+#: src/Offer/CPT/Form/Tabs/DiscountsOfferTab.php:62
+msgid "Description"
+msgstr ""
+
+#: src/Offer/CPT/Form/Tabs/DiscountsOfferTab.php:71
+msgid "Cancellation reasons"
+msgstr ""
+
+#: src/Offer/CPT/Form/Tabs/DiscountsOfferTab.php:89
+msgid "Please note, if you've changed any survey option (1st step), you must re-save this form to pull updated survey options here."
+msgstr ""
+
+#: src/Offer/CPT/Form/Tabs/DiscountsOfferTab.php:95
+msgid "Choose which survey answers will enable a discount offer. Leave empty to offer the discount for any cancellation reasons the user chooses. Be sure to use a 'recurring' type of coupon."
+msgstr ""
+
+#: src/Offer/CPT/Form/Tabs/DiscountsOfferTab.php:122
+msgid "Visit the Coupons page to create a new coupon if you haven't already done so. Make sure to select the 'recurring' type of coupon."
+msgstr ""
+
+#: src/Offer/CPT/Form/Tabs/DiscountsOfferTab.php:127
+msgid "Create a new coupon"
+msgstr ""
+
+#: src/Offer/CPT/Form/Tabs/DiscountsOfferTab.php:135
+msgid "Offer Settings"
+msgstr ""
+
+#: src/Offer/CPT/Form/Tabs/DiscountsOfferTab.php:138
+msgid "These settings apply only for current discount offer to help target the offers to more committed subscribers and prevent any fraudulent activity."
+msgstr ""
+
+#: src/Offer/CPT/Form/Tabs/DiscountsOfferTab.php:147
+#: src/Offer/CPT/Form/Tabs/GeneralSettingsTab.php:29
+msgid "Leave empty to don't make any renewals number restrictions"
+msgstr ""
+
+#: src/Offer/CPT/Form/Tabs/DiscountsOfferTab.php:149
+#: src/Offer/CPT/Form/Tabs/GeneralSettingsTab.php:30
+msgid "Don't offer the discount if the user's number of subscription renewals is below the minimum required threshold."
+msgstr ""
+
+#: src/Offer/CPT/Form/Tabs/DiscountsOfferTab.php:159
+#: src/Offer/CPT/Form/Tabs/GeneralSettingsTab.php:39
+msgid "Leave empty to don't make any restrictions by date."
+msgstr ""
+
+#: src/Offer/CPT/Form/Tabs/DiscountsOfferTab.php:161
+#: src/Offer/CPT/Form/Tabs/GeneralSettingsTab.php:40
+msgid "Don't offer discounts to users whose subscriptions were created less than the specified number of days."
+msgstr ""
+
+#: src/Offer/CPT/Form/Tabs/DiscountsOfferTab.php:169
+msgid "Allow offer be applied multiple times"
+msgstr ""
+
+#: src/Offer/CPT/Form/Tabs/DiscountsOfferTab.php:171
+msgid "The discount offer will be valid again after the initial discount was expired."
+msgstr ""
+
+#: src/Offer/CPT/Form/Tabs/DiscountsOfferTab.php:177
+msgid "Labels"
+msgstr ""
+
+#: src/Offer/CPT/Form/Tabs/DiscountsOfferTab.php:184
+msgid "Apply discount button label"
+msgstr ""
+
+#: src/Offer/CPT/Form/Tabs/DiscountsOfferTab.php:193
+msgid "Cancel subscription button label"
+msgstr ""
+
+#: src/Offer/CPT/Form/Tabs/GeneralSettingsTab.php:13
+#: src/Settings/Settings.php:30
+msgid "Settings"
+msgstr ""
+
+#: src/Offer/CPT/Form/Tabs/GeneralSettingsTab.php:17
+msgid "Set eligibility criteria for offers."
+msgstr ""
+
+#: src/Offer/CPT/Form/Tabs/GeneralSettingsTab.php:21
+msgid "These settings apply only for current survey\\offer to help target the offers to more committed subscribers and prevent any fraudulent activity."
+msgstr ""
+
+#: src/Offer/CPT/Form/Tabs/LimitationsTab.php:15
+msgid "Limits by Products And Users"
+msgstr ""
+
+#: src/Offer/CPT/Form/Tabs/LimitationsTab.php:19
+msgid "Select products or product categories the rule will work for."
+msgstr ""
+
+#: src/Offer/CPT/Form/Tabs/LimitationsTab.php:61
+msgid "If you do not specify products or product categories, the this offer will work for all products in your store. (excluding products selected in the exclusions section)"
+msgstr ""
+
+#: src/Offer/CPT/Form/Tabs/LimitationsTab.php:70
+msgid "Included Product Categories"
+msgstr ""
+
+#: src/Offer/CPT/Form/Tabs/LimitationsTab.php:98
+msgid "Included Products"
+msgstr ""
+
+#: src/Offer/CPT/Form/Tabs/LimitationsTab.php:122
+#: src/Offer/CPT/Form/Tabs/LimitationsTab.php:253
+msgid "Users"
+msgstr ""
+
+#: src/Offer/CPT/Form/Tabs/LimitationsTab.php:127
+msgid "The offer will work for all users if you do not specify user roles or specific customers. (excluding users selected in the exclusions section)"
+msgstr ""
+
+#: src/Offer/CPT/Form/Tabs/LimitationsTab.php:136
+msgid "Included User Roles"
+msgstr ""
+
+#: src/Offer/CPT/Form/Tabs/LimitationsTab.php:157
+msgid "Included Users"
+msgstr ""
+
+#: src/Offer/CPT/Form/Tabs/LimitationsTab.php:182
+msgid "Exclusions"
+msgstr ""
+
+#: src/Offer/CPT/Form/Tabs/LimitationsTab.php:201
+msgid "Excluded Product Categories"
+msgstr ""
+
+#: src/Offer/CPT/Form/Tabs/LimitationsTab.php:229
+msgid "Excluded Products"
+msgstr ""
+
+#: src/Offer/CPT/Form/Tabs/LimitationsTab.php:262
+msgid "Excluded User Roles"
+msgstr ""
+
+#: src/Offer/CPT/Form/Tabs/LimitationsTab.php:284
+msgid "Excluded Users"
+msgstr ""
+
+#: src/Offer/CPT/Form/Tabs/SurveyTab.php:21
+msgid "Customize the survey by adding various reasons that customers might choose when canceling their subscription."
+msgstr ""
+
+#: src/Offer/CPT/Form/Tabs/SurveyTab.php:126
+msgid "Enable Survey"
+msgstr ""
+
+#: src/Offer/CPT/Form/Tabs/SurveyTab.php:136
+msgid "Survey Title"
+msgstr ""
+
+#: src/Offer/CPT/Form/Tabs/SurveyTab.php:143
+msgid "Survey Description"
+msgstr ""
+
+#: src/Offer/CPT/Form/Tabs/SurveyTab.php:148
+msgid "Cancellation Reasons"
+msgstr ""
+
+#: src/Offer/CPT/Form/Tabs/SurveyTab.php:154
+msgid "Cancellation reasons"
+msgstr ""
+
+#: src/Offer/CPT/Form/Tabs/SurveyTab.php:186
+msgid "Ask for details in the text field"
+msgstr ""
+
+#: src/Offer/CPT/Form/Tabs/SurveyTab.php:196
+msgid "Add cancellation reason"
+msgstr ""
+
+#: src/Offer/Entity/DiscountOffer/DiscountOffer.php:156
+msgid "Your special offer"
+msgstr ""
+
+#: src/Offer/Entity/DiscountOffer/DiscountOffer.php:160
+msgid "As a valued subscriber, you have the opportunity to receive an exclusive 10% discount on your subscription. Accept this offer now; the discount will automatically apply to your next billing cycle."
+msgstr ""
+
+#: src/Offer/Entity/DiscountOffer/DiscountOffer.php:173
+msgid "Accept offer"
+msgstr ""
+
+#: src/Offer/Entity/DiscountOffer/DiscountOffer.php:177
+msgid "Cancel subscription"
+msgstr ""
+
+#: src/Offer/Entity/Offer.php:124
+msgid "At least one of the offer types (discount or survey) must be enabled"
+msgstr ""
+
+#: src/Offer/Entity/Offer.php:128
+msgid "Coupon code is required for discount offer"
+msgstr ""
+
+#: src/Offer/Entity/Offer.php:132
+msgid "Survey items are required for survey offer"
+msgstr ""
+
+#: src/Offer/Entity/Survey/Survey.php:22
+msgid "What is the reason for canceling your subscription?"
+msgstr ""
+
+#: src/Offer/Entity/Survey/Survey.php:26
+msgid "Please tell us why you're canceling your subscription. Your feedback helps us improve."
+msgstr ""
+
+#: src/Offer/Entity/Survey/Survey.php:33
+msgid "I no longer need the product"
+msgstr ""
+
+#: src/Offer/Entity/Survey/Survey.php:38
+msgid "I found a better alternative"
+msgstr ""
+
+#: src/Offer/Entity/Survey/Survey.php:43
+msgid "The product is too expensive"
+msgstr ""
+
+#: src/Offer/Entity/Survey/Survey.php:48
+msgid "I'm not satisfied with the quality of the product"
+msgstr ""
+
+#: src/Offer/Entity/Survey/Survey.php:53
+msgid "The product did not meet my expectations"
+msgstr ""
+
+#: src/Offer/Entity/Survey/Survey.php:58
+msgid "Other (please specify)"
+msgstr ""
+
+#: src/Settings/Settings.php:41
+msgctxt "options section heading"
+msgid "Offers & Surveys"
+msgstr ""
+
+#: src/Settings/Settings.php:43
+msgid "Section description"
+msgstr ""
+
+#: src/SurveyAnswers/SurveyAnswersPage/Actions/DeleteSurveyAnswerAction.php:15
+msgid "Survey answer has been deleted successfully"
+msgstr ""
+
+#: src/SurveyAnswers/SurveyAnswersPage/Actions/DeleteSurveyAnswerAction.php:29
+#: src/SurveyAnswers/SurveyAnswersPage/Columns/ActionsColumn.php:34
+#: src/SurveyAnswers/SurveyAnswersPage/SurveyAnswersWPListTable.php:149
+msgid "Delete"
+msgstr ""
+
+#: src/SurveyAnswers/SurveyAnswersPage/Actions/SurveyAnswersListAction.php:60
+msgid "Invalid Nonce"
+msgstr ""
+
+#: src/SurveyAnswers/SurveyAnswersPage/Columns/ActionsColumn.php:23
+msgid "Actions"
+msgstr ""
+
+#: src/SurveyAnswers/SurveyAnswersPage/Columns/ActionsColumn.php:28
+msgid "Are you sure?"
+msgstr ""
+
+#: src/SurveyAnswers/SurveyAnswersPage/Columns/AnswerColumn.php:9
+#: src/SurveyAnswers/SurveyAnswersPage/SurveyAnswersWPListTable.php:49
+#: src/SurveyAnswers/SurveyAnswersPage/SurveyAnswersWPListTable.php:50
+msgid "Survey Answer"
+msgstr ""
+
+#: src/SurveyAnswers/SurveyAnswersPage/Columns/AnswerColumn.php:17
+msgid "Survey is disabled"
+msgstr ""
+
+#: src/SurveyAnswers/SurveyAnswersPage/Columns/CouponCodeColumn.php:9
+msgid "Offered Coupon"
+msgstr ""
+
+#: src/SurveyAnswers/SurveyAnswersPage/Columns/CouponCodeColumn.php:15
+msgid "Discount was not offered"
+msgstr ""
+
+#: src/SurveyAnswers/SurveyAnswersPage/Columns/DateCreatedColumn.php:8
+msgid "Date Created"
+msgstr ""
+
+#: src/SurveyAnswers/SurveyAnswersPage/Columns/IsDiscountOfferAccepted.php:8
+msgid "Retain Status"
+msgstr ""
+
+#: src/SurveyAnswers/SurveyAnswersPage/Columns/IsDiscountOfferAccepted.php:17
+#: src/SurveyAnswers/SurveyAnswersPage/Columns/IsDiscountOfferAccepted.php:37
+msgid "Cancelled"
+msgstr ""
+
+#: src/SurveyAnswers/SurveyAnswersPage/Columns/IsDiscountOfferAccepted.php:29
+msgid "Retained"
+msgstr ""
+
+#: src/SurveyAnswers/SurveyAnswersPage/Columns/OfferColumn.php:9
+msgid "Survey & Offer"
+msgstr ""
+
+#: src/SurveyAnswers/SurveyAnswersPage/Columns/OfferColumn.php:19
+msgid "No title"
+msgstr ""
+
+#: src/SurveyAnswers/SurveyAnswersPage/Columns/OfferColumn.php:23
+#: src/SurveyAnswers/SurveyAnswersPage/Columns/SubscriptionColumn.php:22
+msgid "(Deleted)"
+msgstr ""
+
+#: src/SurveyAnswers/SurveyAnswersPage/Columns/SubscriptionColumn.php:9
+msgid "Subscription"
+msgstr ""
+
+#: src/SurveyAnswers/SurveyAnswersPage/Columns/UserColumn.php:10
+msgid "User"
+msgstr ""
+
+#: src/SurveyAnswers/SurveyAnswersPage/SurveyAnswersPage.php:58
+#: src/SurveyAnswers/SurveyAnswersPage/SurveyAnswersPage.php:59
+msgid "Survey Answers"
+msgstr ""
+
+#: src/SurveyAnswers/SurveyAnswersPage/SurveyAnswersWPListTable.php:84
+msgid "No survey answers yet."
+msgstr ""
+
+#: src/SurveyAnswers/SurveyAnswersPage/SurveyAnswersWPListTable.php:179
+msgid "Survey Answers have been deleted successfully"
+msgstr ""
+
+#: views/frontend/popup.php:55
+msgid "Please specify"
+msgstr ""
+
+#: views/frontend/popup.php:62
+msgid "Continue"
+msgstr ""
+
+#: views/frontend/popup.php:67
+msgid " Never mind, I've changed my mind"
+msgstr ""

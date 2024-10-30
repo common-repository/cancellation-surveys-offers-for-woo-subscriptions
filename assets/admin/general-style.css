@@ -1,0 +1,453 @@
+.cancellation-offers-components__checkbox input[type=checkbox] {
+	height: 0;
+	width: 0;
+	visibility: hidden;
+	display: none;
+}
+
+.cancellation-offers-components__checkbox label {
+	--size: 45px;
+
+	cursor: pointer;
+	width: var(--size) !important;
+	height: calc(var(--size) / 2);
+	background: grey;
+	display: block;
+	border-radius: 100px;
+	position: relative;
+	float: none !important;
+	margin: 0 !important;
+}
+
+.cancellation-offers-components__checkbox label:after {
+	content: '';
+	position: absolute;
+	top: 6%;
+	left: 2.5%;
+	width: calc(50% - 5%);
+	height: calc(100% - 11%);
+	background: #fff;
+	border-radius: 90px;
+	transition: 0.3s;
+}
+
+.cancellation-offers-components__checkbox input:checked + label {
+	background: #2271b1;
+}
+
+.cancellation-offers-components__checkbox input:checked + label:after {
+	left: calc(100% - 2.5%);
+	transform: translateX(-100%);
+}
+
+.cancellation-offers-components__checkbox label:active:after {
+	width: 55%;
+}
+
+.cos-offer-and-survey--premium-only {
+	filter: opacity(0.5);
+	pointer-events: none;
+}
+
+.cancellation-offers-components__dismiss-button {
+	position: relative;
+	padding: 0;
+	outline: none;
+	cursor: pointer;
+	display: inline-block;
+}
+
+
+.cancellation-offers-components-row {
+	width: 100%;
+	display: flex;
+	margin-bottom: 20px;
+	flex-wrap: nowrap;
+}
+
+.cancellation-offers-components-row__label {
+	width: 150px;
+	padding-right: 15px;
+	box-sizing: border-box;
+}
+
+.cancellation-offers-components-row__value {
+	flex: 1;
+}
+
+.cancellation-offers-components-row__value input[type=text],
+.cancellation-offers-components-row__value input[type=number],
+.cancellation-offers-components-row__value input[type=phone],
+.cancellation-offers-components-row__value input[type=email],
+.cancellation-offers-components-row__value textarea,
+.cancellation-offers-components-row__value select,
+.cancellation-offers-components-row__value .select2 {
+	width: 100% !important;
+}
+
+
+.cancellation-offers-components__separator {
+	margin: 40px 0;
+}
+
+.cancellation-offers-components__separator::after {
+	content: attr(data-title);
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+	background: #fff;
+	padding: 0 20px;
+	font-weight: bold;
+}
+
+/**
+ * Survey Answers Table
+ */
+.widefat.surveyanswer tfoot tr td,
+.widefat.surveyanswer tfoot tr th,
+.widefat.surveyanswer thead tr td,
+.widefat.surveyanswer thead tr th,
+.widefat.surveyanswer tbody tr td,
+.widefat.surveyanswer tbody tr th {
+	padding: 13px;
+	vertical-align: inherit;
+}
+
+
+@media (min-width: 782px) {
+	.widefat #csows_answer {
+		width: 20%;
+	}
+
+	.widefat #csows_actions {
+		width: 70px;
+	}
+}
+
+.cos-new-survey-answer-row {
+	background: #ebffeb !important;
+}
+
+.survey-answer-column_text-answer {
+	position: relative;
+	margin-top: 10px;
+	padding: 8px 10px;
+	background: rgba(0, 0, 0, .07);
+	border-radius: 3px;
+}
+
+.survey-answer-column_text-answer:after {
+	content: " ";
+	position: absolute;
+	left: 10px;
+	top: -7px;
+	border-top: none;
+	border-right: 7px solid transparent;
+	border-left: 7px solid transparent;
+	border-bottom: 7px solid rgba(0, 0, 0, .07);
+}
+
+.cos-customer-link {
+	word-wrap: normal;
+}
+
+/**
+ *************
+ * Offer CPT *
+ *************
+ */
+
+/**
+ * Form
+ */
+
+/* do not display any notices on rule creation */
+.post-type-cancellation-offer .wrap .notice:not(.notice-success) {
+	display: none;
+}
+
+.cos-offer-and-survey-form .woocommerce-help-tip {
+	margin-left: 5px;
+}
+
+/* tab hint */
+.cos-offer-and-survey-hint {
+	display: flex;
+	align-items: center;
+	padding: 10px;
+	border: 1px solid #e8e8e8;
+	background: #faf6f9;
+	color: #2271b1;
+	margin-bottom: 20px;
+}
+
+.cos-offer-and-survey-hint--red {
+	color: red;
+}
+
+.cos-offer-and-survey-hint--top-level {
+	margin-top: 10px;
+}
+
+.cos-offer-and-survey-hint__icon {
+	margin-right: 10px;
+}
+
+.cos-offer-and-survey-form {
+	margin: 20px 0;
+	display: flex;
+	overflow: hidden;
+	border-radius: 3px;
+	flex-wrap: nowrap;
+}
+
+.cos-offer-and-survey-form__tabs {
+	width: 30%;
+	max-width: 300px;
+	min-width: 250px;
+}
+
+.cos-offer-and-survey-form-tab {
+	background: #fff;
+	border-bottom: 1px solid #e8e8e8;
+	border-left: 1px solid #e8e8e8;
+	overflow: hidden;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	padding: 15px 10px;
+}
+
+.cos-offer-and-survey-form-tab:first-child {
+	border-top: 1px solid #e8e8e8;
+}
+
+.cos-offer-and-survey-form-tab:hover:not(.cos-offer-and-survey-form-tab--active) {
+	background: #fbfbfb;
+}
+
+.cos-offer-and-survey-form-tab--active {
+	cursor: default;
+	background: #faf6f9;
+}
+
+.cos-offer-and-survey-form-tab__icon {
+	transition: all .1s;
+	margin-right: 10px;
+}
+
+.cos-offer-and-survey-form-tab--active h3,
+.cos-offer-and-survey-form-tab--active div {
+	color: #2271b1 !important;
+}
+
+.cos-offer-and-survey-form-tab__title h3 {
+	font-size: 1.1em;
+	margin: 0;
+}
+
+.cos-offer-and-survey-form-tab__title div {
+	margin-top: 5px;
+	color: #777;
+}
+
+.cos-offer-and-survey-form-tab-content {
+	display: none;
+}
+
+.cos-offer-and-survey-form-tab-content--active {
+	display: block;
+}
+
+.cos-offer-and-survey-form__content {
+	width: 70%;
+	background: #fff;
+	flex-grow: 1;
+	padding: 15px;
+	border: 1px solid #e8e8e8;
+	box-shadow: 0 0 8px rgba(0, 0, 0, .1);
+}
+
+/**
+* Freemius Banner
+ */
+.cos-offer-and-survey-freemius-block {
+	color: #2271b1;
+	padding: 15px 15px 15px 20px;
+	background: #faf6f9;
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-weight: 600;
+	border-left: 5px solid #2271b1;
+	box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+}
+
+.cos-offer-and-survey-freemius-block__title {
+	font-size: 1.1em;
+}
+
+.cos-offer-and-survey-freemius-block__icon {
+	font-size: 2em;
+	margin-right: 10px;
+}
+
+.cos-offer-and-survey-freemius-block__upgrade-button {
+	animation: cos-offer-and-survey-upgrade-button-animation 20s ease-out infinite;
+}
+
+@keyframes cos-offer-and-survey-upgrade-button-animation {
+	0% {
+		transform: scale(1);
+	}
+	4% {
+		transform: scale(1.08);
+	}
+	5% {
+		transform: scale(0.98);
+	}
+	5.5% {
+		transform: scale(1.02);
+	}
+	6% {
+		transform: scale(0.98);
+	}
+	10% {
+		transform: scale(1);
+	}
+}
+
+/**
+ * Offer Helping Steps
+ */
+.cos-offer-and-survey-helping {
+	background: #fff;
+	border: 1px solid #e8e8e8;
+	padding: 20px;
+	position: relative;
+	text-align: center;
+	margin: 20px 0;
+}
+
+.cos-offer-and-survey-helping__close {
+	position: absolute;
+	top: 10px;
+	width: 26px;
+	height: 26px;
+	background: #faf6f9;
+	color: #2271b1;
+	text-align: center;
+	line-height: 24px;
+	right: 10px;
+	font-weight: bold;
+	border-radius: 50%;
+}
+
+.cos-offer-and-survey-helping__close:hover {
+	background: #f3ddee;
+	cursor: pointer;
+}
+
+.cos-offer-and-survey-helping__title {
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+.cos-offer-and-survey-helping__steps {
+	justify-content: center;
+	gap: 20px;
+	display: flex;
+	align-items: center;
+	margin-top: 30px
+}
+
+.cos-offer-and-survey-helping-step {
+	width: 30%;
+}
+
+.cos-offer-and-survey-helping-step--arrow {
+	color: #2271b1;
+	width: 5%;
+}
+
+.cos-offer-and-survey-helping-step__title {
+	font-size: 1.4em;
+	font-weight: 600;
+}
+
+.cos-offer-and-survey-helping-step__description {
+	margin-top: 10px;
+}
+
+.cos-offer-and-survey-helping-step__icon,
+.cos-offer-and-survey-helping-step__icon span {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background: #faf6f9;
+	margin: 0 auto 15px;
+	text-align: center;
+	color: #2271b1;
+	font-size: 25px;
+	font-weight: bold;
+	line-height: 50px;
+}
+
+/**
+ * Offer Form Tabs - Limitations
+ */
+#cancellation-offer-limitations-tab--exclusions-toggle {
+	background: #f5f5f5;
+	padding: 10px;
+	font-weight: bold;
+	cursor: pointer;
+	text-align: center;
+}
+
+#cancellation-offer-limitations-tab-exclusions {
+	display: none;
+}
+
+#cancellation-offer-limitations-tab--exclusions-toggle:hover {
+	background: #ccc;
+}
+
+#cancellation-offer-limitations-tab--exclusions-toggle-down {
+	display: none;
+}
+
+
+/**
+ * Offer Form Tabs - Survey
+ */
+.cancellation-offers-survey__survey-item {
+	padding: 10px;
+	background: #f5f5f5;
+	margin-bottom: 15px;
+	border-radius: 3px;
+	border: 1px solid #ccc;
+}
+
+.cancellation-offers-survey__survey-item__main {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 10px;
+	margin-bottom: 10px;
+}
+
+.cancellation-offers-survey__survey-item__options-text-answer {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+}
+
+.cancellation-offers-survey__survey-item__title {
+	width: 100%;
+}
+
+.cancellation-offer-survey-item__title input {
+	width: 100% !important;
+}

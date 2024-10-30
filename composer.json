@@ -1,0 +1,27 @@
+{
+  "name": "meow-crew/cancellation-surveys-offers-woocommerce-subscriptions",
+  "type": "wordpress-plugin",
+  "authors": [
+    {
+      "name": "Meow Crew"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "MeowCrew\\CancellationOffers\\": "src"
+    }
+  },
+  "require-dev": {
+    "woocommerce/woocommerce-sniffs": ">0.0.1"
+  },
+  "config": {
+    "allow-plugins": {
+      "dealerdirect/phpcodesniffer-composer-installer": true
+    }
+  },
+  "scripts": {
+    "build": "php PluginBuilder.php",
+    "check": "/opt/homebrew/opt/php@7.4/bin/php ./vendor/bin/phpcs --standard=phpcs.xml -s --warning-severity=0 --ignore-annotations --extensions=php,html",
+    "fix": "/opt/homebrew/opt/php@7.4/bin/php ./vendor/bin/phpcbf --standard=phpcs.xml --warning-severity=0 --ignore-annotations --extensions=php,html"
+  }
+}
